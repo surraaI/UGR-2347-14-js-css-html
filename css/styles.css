@@ -234,6 +234,11 @@ footer p {
     text-align: center;
 }
 
+label {
+    display: block;
+    margin-top: 10px;
+}
+
 #banner h1 {
     color: var(--orange);
     font-size: 100px;
@@ -297,6 +302,10 @@ aside p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+#skillsbtn {
+    margin-bottom: 100px;
 }
 
 .contact {
