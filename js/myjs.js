@@ -30,6 +30,13 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'about.html';
     });
 });
+document.addEventListener('DOMContentLoaded', function() {
+    var skill_btn = document.getElementById('skillsbtn');
+    skill_btn.addEventListener('click', function() {
+        console.log('clicked')
+        window.location.href = 'skills.html';
+    });
+});
 
 document.addEventListener('DOMContentLoaded', function() {
     var resumeButton = document.getElementById('Resume');
